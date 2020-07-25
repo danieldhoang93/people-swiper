@@ -1,7 +1,7 @@
 <template>
     <section class="container">
       <div class="fixed header">
-        <span>Fuck Finder</span>
+        <span>P.Y.T</span>
       </div>
 
       <div class="card secondCard fixed fixed--center">
