@@ -1,6 +1,6 @@
 # Quasar App (people-swiper)
 
-This is a static api that I got data from using JSON Server and faker for the fake data. It can be accessed here: https://danieldhoang93.github.io/people-json-api/public/people.json or https://people-swiper-api.netlify.app/people.json
+Uses json server and faker to get fake people to swipe. I installed vue2-interact for drag features, and deployed a static API that I connect to.
 
 ## Install the dependencies
 ```bash
