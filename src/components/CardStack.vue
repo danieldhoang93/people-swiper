@@ -115,9 +115,10 @@ export default {
     }
   },
     created() {
-        fetch("http://localhost:3000/people")
+        fetch("https://cors-anywhere.herokuapp.com/https://people-swiper-api.netlify.app/people.json")
         .then(response => {
             return response.json();
+            
         })
         .then(data => {
             this.people = data;
