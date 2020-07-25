@@ -1,7 +1,7 @@
 <template>
     <section class="container">
       <div class="fixed header">
-        <span>P.Y.T</span>
+        <span>Please Love Me</span>
       </div>
 
       <div class="card secondCard fixed fixed--center">
