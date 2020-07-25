@@ -32,7 +32,7 @@
           :interact-lock-swipe-up="interactLockSwipeUp"
           :interact-event-bus-events="interactEventBus"
           :interact-out-of-sight-x-coordinate="600"
-          :interact-x-threshold="250"
+          :interact-x-threshold="150"
           class="card isCurrent">
           <div>
             <img :src="people[this.index].avatar" class="profilePicture"/>
@@ -130,28 +130,6 @@ export default {
 .container {
   width: 100%;
   height: 100vh;
-}
-
-.header {
-  width: 100%;
-  height: 60vh;
-  z-index: 0;
-  color: white;
-  background: #f953c6;
-  background: -webkit-linear-gradient(to top, #f03e91, #f568aa);
-  background: linear-gradient(to top, #f84e9d, #f03e91);
-  display: flex;
-  justify-content: center;
-  clip-path: polygon(0 0%, 100% 0%, 100% 76%, 0 89%);
-  span {
-    display: block;
-    font-size: 4rem;
-    padding-top: 2rem;
-    text-shadow: 1px 1px 1px red;
-  }
-  i {
-    padding: 24px;
-  }
 }
 
 .flex {
